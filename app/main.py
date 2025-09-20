@@ -18,3 +18,5 @@ app.include_router(crop_doctor.router)
 @app.get("/")
 async def root():
     return {"message": "Welcome to KisanOne Backend"}
+
+handler = app
